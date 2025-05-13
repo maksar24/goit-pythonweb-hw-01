@@ -1,9 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List
-import logging
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+from logger import logger
 
 
 class Book:
